@@ -31,7 +31,7 @@ export function MintNFT() {
   // Render the component with a button that triggers the mint transaction when clicked, a loading message while the transaction is in progress, and a success message when the transaction is successful
   return (
     <div className={styles.mintcontainer}>
-      <h1 className={styles.text}>Don't have any NFTs? Mint your Dogepunks NFT!</h1>
+      <h1 className={styles.text}>Do not have any NFTs? Mint your Dogepunks NFT!</h1>
       <button
         disabled={!write || isLoading}
         onClick={() => write?.()}
